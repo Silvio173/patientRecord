@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/patient")
 public class patientController {
     @GetMapping
-    public String getBook(){
+    public String getBook() {
         return "API Rest";
     }
 }
